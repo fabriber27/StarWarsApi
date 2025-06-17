@@ -1,4 +1,4 @@
-import { type character } from '../Interfaces/Character';
+import { type character } from "../Interfaces/character";
 
 
 

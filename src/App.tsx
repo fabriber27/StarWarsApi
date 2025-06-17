@@ -1,14 +1,11 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
 
-function App() {
+
+export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-      </Routes>
-    </BrowserRouter>
+    <div className="bg-red-500 text-white p-10 text-center text-2xl">
+      Si ves esto con fondo rojo, Tailwind funciona ✅
+    </div>
   );
 }
 
-export default App;
+
